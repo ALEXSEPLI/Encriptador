@@ -1,0 +1,151 @@
+*{
+    background-color: #ac7eb1; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%; 
+     
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area{
+    height: 400px;
+    border-color: #1d242d;
+    border-style: solid double;
+    border-radius: 18px;
+    color: #ebe2e2;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:  #ebe0e1; }
+    .text-area.focus{
+        outline: none;
+    }
+
+.mensaje{
+    background-image: url("./Assets/Muñeco.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border-color: #1d242d;
+    border-style: solid double;
+    border-radius: 24px;
+    color: #eddfea;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.btn-desencriptar:hover{
+    background: rgb(238, 25, 25);
+    transform: scale3d(1.1);
+    transition: 1s;
+}
+
+.btn-encriptar{
+    background-color:  #17011b;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+
+}
+
+.btn-encriptar:hover{
+    background: rgba(12, 197, 249, 0.856);
+    transform: scale3d(1.1);
+    transition: 1s;
+}
+
+#copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #17011b;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 108px;
+    margin-top: 460px;
+    position: absolute;
+    width: 300px;
+}
+
+#copiar:hover{
+    background: rgb(199, 235, 22);
+    transform:scale(1.1);
+    transition: 2s;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+.pie-pagina{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+}

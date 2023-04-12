@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <script src="https://kit.fontawesome.com/2a10cdab66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Assets/Vector.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea> 
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button id="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/index.js"></script>
+    <footer class="pie-pagina">
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, aperiam. </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, aperiam. </p>        
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="https://github.com/ALEXSEPLI" class="fa-brands fa-github"></i>
+                <a href="https://www.linkedin.com/in/alex-sepliarsky-817b65213/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&reg; 2021 <b>Alex Sepliarsky_Dev</b> - Todos los Derechos Resevados</small>
+        </div>
+    </footer>
+</body>
+</html>
